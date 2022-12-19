@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                echo "Job started by $Name"
+                echo "Job started by Karthik"
                 echo "I am in Dev Job"
             }
         }
