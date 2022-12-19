@@ -4,30 +4,30 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                echo 'Job started by '$Name
-                echo 'I am in Dev Job'
+                echo "Job started by $Name"
+                echo "I am in Dev Job"
             }
         }
         stage('Build') {
             steps {
-                echo 'BUILDING'
+                echo "BUILDING"
             }
         }
-        stage('Deploy') {
+        stage('"eploy"){
             steps {
-                echo 'Deploying'
+                echo "Deploying"
             }
         }
         stage('Test') {
             steps {
-                echo 'Testing'
+                echo "Testing"
             }
             
         }
         stage('Release') {
             steps {
-                echo 'Releasing'
-                echo 'Released'
+                echo "Releasing"
+                echo "Released"
                 
             }
         }
